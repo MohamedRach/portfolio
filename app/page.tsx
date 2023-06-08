@@ -45,7 +45,7 @@ export default function Home() {
 				</h2>
 			</div>
 			<div className="flex flex-row gap-20">
-			<button className="bg-white text-black font-bold py-2 px-4 rounded">Download my cv</button>
+			<button className="bg-white text-black font-bold py-2 px-4 rounded"><a href="/mon_cv.pdf" download="cv.pdf">Download my cv</a></button>
 			<button className="bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent rounded"><Link target="_blank" href="https://github.com/MohamedRach">My Github</Link></button>
 			</div>
 		</div>
