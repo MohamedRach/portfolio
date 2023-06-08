@@ -40,7 +40,7 @@ export default async function PostPage({ params }: Props) {
 		case "2":
 			var project = {
 				repository : "https://github.com/MohamedRach/websockets",
-				url: "https://scm-app-production.up.railway.app/",
+				url: "https://order-tracking.onrender.com",
 				title:"Real time order tracking using websockets",
 				description:"The real-time order tracking app is an application that leverages web sockets to provide users with live updates on their orders. Built using Node.js, Express, and Socket.IO.",
 				paras: ["The real-time order tracking app is an application that leverages web sockets to provide users with live updates on their orders. Built using Node.js, Express, and Socket.IO.", "Users can receive real-time updates as their orders progress through different stages. The app utilizes web sockets, powered by Socket.IO, to establish a persistent connection between the client and server. This enables instant communication and enables the server to push order status updates to the client in real time.", "When an admin updates the order status from the administration dashboard, the change is instantly reflected in real time for the client. eliminating the need for manual refreshes or constant status checks.  NB: please go to '/admin' to access the admin panel"],
@@ -51,7 +51,7 @@ export default async function PostPage({ params }: Props) {
 		case "3":
 			var project = {
 				repository : "https://github.com/MohamedRach/ensimeal",
-				url: "https://scm-app-production.up.railway.app/",
+				url: "https://ensimeal.vercel.app/",
 				title:"Next js Recipe App EnsiMeal",
 				description:"EnsiMeal is a recipe app that combines various technologies. Built using Next.js, Streaming SSR, Server Components, and Server Actions, along with Prisma and a PostgreSQL database, EnsiMeal offers a platform for discovering and creating delicious recipes.The app utilizes Streaming SSR (Server-Side Rendering) to efficiently generate and deliver HTML content to users, resulting in faster page loads and improved performance. This ensures that users can quickly access recipes and related information without delay",
 				paras: ["EnsiMeal is a recipe app that combines various technologies. Built using Next.js, Streaming SSR, Server Components, and Server Actions, along with Prisma and a PostgreSQL database, EnsiMeal offers a platform for discovering and creating delicious recipes.The app utilizes Streaming SSR (Server-Side Rendering) to efficiently generate and deliver HTML content to users, resulting in faster page loads and improved performance. This ensures that users can quickly access recipes and related information without delay", "EnsiMeal also employs Server Components, a Next.js feature that allows for modular server-side rendering. This enables the app to render specific components on the server, reducing the amount of data transferred to the client and enhancing overall performance. The app utilizes Server Action for forms, enabling seamless and secure data submission, validation, and processing.", "Prisma, coupled with a PostgreSQL database, serves as the robust backend infrastructure for EnsiMeal. Prisma's intuitive and type-safe query building capabilities simplify database operations and improve productivity. The PostgreSQL database offers reliability, scalability, and strong data integrity, ensuring a seamless recipe management experience."],
